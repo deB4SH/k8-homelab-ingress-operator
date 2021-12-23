@@ -23,6 +23,8 @@ import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+//TODO: add watch service around ingresses - so that the service keeps watching on changes
+//TODO: add CRD/CR tracking for status updates/changes
 public class IngressWatch {
     private static final Logger log = Logger.getLogger(IngressWatch.class.getName());
 
